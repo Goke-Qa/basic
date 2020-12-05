@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20201205 14:25:32.883" generator="Robot 3.2.2 (Python 2.7.10 on darwin)">
+<suite source="/Users/olagoke.somotan/PycharmProjects/basic/tests/project.robot" id="s1" name="Project">
+<test id="s1-t1" name="User can open home page">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://teamapt.com/</arg>
+</arguments>
+<msg timestamp="20201205 14:25:33.203" level="INFO">Opening browser 'firefox' to base url 'https://teamapt.com/'.</msg>
+<status status="PASS" endtime="20201205 14:25:49.533" starttime="20201205 14:25:33.203"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20201205 14:25:50.168" starttime="20201205 14:25:49.535"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Technology for Financial Happiness of Africans.</arg>
+</arguments>
+<status status="PASS" endtime="20201205 14:25:50.215" starttime="20201205 14:25:50.169"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20201205 14:25:53.216" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20201205 14:25:53.217" starttime="20201205 14:25:50.215"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://nav[@class='main-nav']//a[contains(.,'For Banks')]</arg>
+</arguments>
+<msg timestamp="20201205 14:25:53.218" level="INFO">Clicking link 'xpath://nav[@class='main-nav']//a[contains(.,'For Banks')]'.</msg>
+<status status="PASS" endtime="20201205 14:25:53.512" starttime="20201205 14:25:53.217"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20201205 14:25:56.518" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20201205 14:25:56.519" starttime="20201205 14:25:53.516"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://span[contains(.,'Profectus Robotics Automation')]</arg>
+</arguments>
+<msg timestamp="20201205 14:25:56.520" level="INFO">Clicking element 'xpath://span[contains(.,'Profectus Robotics Automation')]'.</msg>
+<status status="PASS" endtime="20201205 14:26:01.820" starttime="20201205 14:25:56.519"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://div[@class='info aos-init aos-animate']/a[contains(.,'Request Demo')]</arg>
+</arguments>
+<msg timestamp="20201205 14:26:01.822" level="INFO">Clicking element 'xpath://div[@class='info aos-init aos-animate']/a[contains(.,'Request Demo')]'.</msg>
+<status status="PASS" endtime="20201205 14:26:05.084" starttime="20201205 14:26:01.821"></status>
+</kw>
+<status status="PASS" endtime="20201205 14:26:05.085" critical="yes" starttime="20201205 14:25:33.201"></status>
+</test>
+<doc>This is a basic test</doc>
+<status status="PASS" endtime="20201205 14:26:05.088" starttime="20201205 14:25:32.886"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Project" pass="1">Project</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
